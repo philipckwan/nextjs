@@ -1,8 +1,8 @@
 // index.html
 import {useState} from 'react';
-//import {timeLog} from './PCKUtils'
+import {timeLog} from './PCKUtils'
 
-const version = "v0.5";
+const version = "v0.6";
 
 function Header({ title }) {
   return <h1>{title ? title : 'Default title'}</h1>;
@@ -14,7 +14,7 @@ export default function HomePage() {
 
   function handleClick() {
     console.log(`handleClick: 1.0;`);
-    //timeLog(`handleClick: 2.0;`);
+    timeLog(`handleClick: 2.0;`);
   }
 
   return (
