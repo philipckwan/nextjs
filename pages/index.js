@@ -1,8 +1,8 @@
 // index.html
 import {useState} from 'react';
-import {timeLog} from './PCKUtils'
+import {timeLog} from '../lib/PCKUtils'
 
-const version = "v0.6";
+const version = "v0.7";
 
 function Header({ title }) {
   return <h1>{title ? title : 'Default title'}</h1>;
